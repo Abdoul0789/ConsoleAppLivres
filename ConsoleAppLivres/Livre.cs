@@ -14,9 +14,11 @@ namespace ConsoleAppLivres
 
         public Livre ( string titre, string auteur,int nbrsPages) {
             
-            Titre = titre;
-            Auteur = auteur;
-            NbrsPages = nbrsPages;
+             Titre = titre;
+
+             Auteur = auteur;
+
+             NbrsPages = nbrsPages;
         }
 
         public virtual void afficherDetails () 
